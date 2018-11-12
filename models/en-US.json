@@ -66,36 +66,6 @@
                         "candidates near me",
                         "I want to know candidates for elections"
                     ]
-                },
-                {
-                    "name": "DonateIntent",
-                    "slots": [
-                        {
-                            "name": "ProductName",
-                            "type": "LIST_OF_PRODUCT_NAMES"
-                        }
-                    ],
-                    "samples": [
-                        "donate to {ProductName}",
-                        "contribute to {ProductName}",
-                        "{ProductName}"
-                    ]
-                }
-            ],
-            "types": [
-                {
-                    "name": "LIST_OF_PRODUCT_NAMES",
-                    "values": [
-                        {
-                            "id": "BernieSanders",
-                            "name": {
-                                "value": "Bernie Sanders",
-                                "synonyms": [
-                                    "Bernie"
-                                ]
-                            }
-                        }
-                    ]
                 }
             ]
         }
