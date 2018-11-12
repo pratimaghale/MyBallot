@@ -27,7 +27,7 @@ PROMPT = "Sorry My Ballot skill can't help you with that."
 STOP_MESSAGE = "Thanks for using My Ballot. Goodbye!"
 
 #For Google Civics API
-API_KEY = 'AIzaSyDwOfoDKzlycJhNBXu2qGK-qXEd5rmEG4g'
+API_KEY = '' #Add your Google API key here
 HOST = "https://www.googleapis.com/civicinfo/v2/"
 
 # sb = SkillBuilder()
