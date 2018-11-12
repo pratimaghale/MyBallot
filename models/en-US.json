@@ -1,0 +1,103 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my ballot",
+            "intents": [
+              {
+                  "name": "AddressIntent",
+                  "slots": [
+                      {
+                          "name": "address",
+                          "type": "AMAZON.PostalAddress"
+                      }
+                  ],
+                  "samples": [
+                      "address",
+                      "here's my address",
+                      "{address}"
+                  ]
+              },
+                {
+                    "name": "ElectionIntent",
+                    "samples": [
+                        "elections",
+                        "elections where I live",
+                        "what are upcoming elections",
+                        "elections near me",
+                        "any election"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PollingIntent",
+                    "samples": [
+                        "polling stations",
+                        "polling stations near me",
+                        "I want to know polling stations near me"
+                    ]
+                },
+                {
+                    "name": "CandidateIntent",
+                    "samples": [
+                        "candidates",
+                        "candidates near me",
+                        "I want to know candidates for elections"
+                    ]
+                },
+                {
+                    "name": "DonateIntent",
+                    "slots": [
+                        {
+                            "name": "ProductName",
+                            "type": "LIST_OF_PRODUCT_NAMES"
+                        }
+                    ],
+                    "samples": [
+                        "donate to {ProductName}",
+                        "contribute to {ProductName}",
+                        "{ProductName}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_PRODUCT_NAMES",
+                    "values": [
+                        {
+                            "id": "BernieSanders",
+                            "name": {
+                                "value": "Bernie Sanders",
+                                "synonyms": [
+                                    "Bernie"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
